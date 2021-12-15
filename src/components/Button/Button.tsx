@@ -6,7 +6,7 @@ export interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
-  return <button>Abhi React: {props.label}</button>;
+  return <button>{props.label}</button>;
 };
 
 export default Button;
