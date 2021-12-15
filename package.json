@@ -1,6 +1,6 @@
 {
   "name": "@abhilashm932/abhi-react-component-library",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "my component library",
   "scripts": {
     "rollup": "rollup -c",
@@ -50,10 +50,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/abhilashm932"
   },
-  "dependencies": {},
-  "peerDependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@mui/material": "^5.2.4"
-  }
+  "dependencies": {}
 }
