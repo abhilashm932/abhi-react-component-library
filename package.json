@@ -1,6 +1,6 @@
 {
   "name": "@abhilashm932/abhi-react-component-library",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "my component library",
   "scripts": {
     "rollup": "rollup -c",
@@ -15,6 +15,9 @@
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.4",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-typescript": "^8.3.0",
@@ -47,5 +50,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/abhilashm932"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.4"
+  }
 }

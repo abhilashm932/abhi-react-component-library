@@ -1,4 +1,5 @@
 import React, { MouseEventHandler } from "react";
+import Button from '@mui/material/Button';
 import './Button.css';
 
 export interface ButtonProps {
@@ -6,8 +7,8 @@ export interface ButtonProps {
   onClick: MouseEventHandler
 }
 
-const Button = (props: ButtonProps) => {
-  return <button onClick={props.onClick}>{props.label}</button>;
+const ButtonC = (props: ButtonProps) => {
+  return <Button variant="contained" onClick={props.onClick}>{props.label}</Button>;
 };
 
-export default Button;
+export default ButtonC;
